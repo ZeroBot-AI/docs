@@ -11,5 +11,30 @@ This endpoint allows you to create a new user account by sending a POST request 
 ### Request Parameters
 
 <RequestExample>
-  ```yaml name: John Doe email: john@example.com password: secretpassword
+  ```yaml name: John Doe email: john@example.com password: secretpassword```
 </RequestExample>
+Response
+<ResponseExample>
+```json
+{
+  "id": "123",
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+```
+</ResponseExample>
+Error Responses
+<ResponseExample status={400}>
+```json
+{
+  "error": "Invalid request payload"
+}
+```
+</ResponseExample>
+<ResponseExample status={409}>
+```json
+{
+  "error": "Email address already exists"
+}
+```
+</ResponseExample>
