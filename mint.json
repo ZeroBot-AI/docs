@@ -88,6 +88,6 @@
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   },
   "api": {
-    "specPath": "api-reference/openapi.json"
+    "baseUrl": "https://api.zerobot.ai"
   }
 }
