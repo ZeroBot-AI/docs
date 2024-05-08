@@ -77,9 +77,8 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/system-message",
-        "api-reference/endpoint/completions"
+        "api-reference/endpoint/newendpoint",
+        "api-reference/endpoint/new-endpoint",
       ]
     }
   ],
