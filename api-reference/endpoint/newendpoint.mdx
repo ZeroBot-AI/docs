@@ -1,26 +1,9 @@
 ---
-title: "Get User"
-api: "GET https://api.zerobot.ai/users/{uid}"
-description: "Get a user by UID"
+title: "System Message"
+api: "GET https://api.zerobot.ai/v1/chat/system_message?uid=bZjbfHSH9"
+description: "Get agent's system message"
 ---
 
 ## Endpoint Description
 
-This endpoint allows you to retrieve a user's information by sending a GET request to the `/users/{uid}` endpoint, where `{uid}` is the unique identifier of the user.
-
-### Path Parameters
-
-<ParamField path="uid" type="string" required>
-  The unique identifier of the user.
-</ParamField>
-
-### Response
-
-<ResponseExample>
-```json
-{
-  "id": "abc123",
-  "name": "John Doe",
-  "email": "john@example.com",
-  "createdAt": "2023-05-31T10:30:00Z"
-}
+This endpoint allows you to check an agent's system message.
