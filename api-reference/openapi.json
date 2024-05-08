@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://api.zerobot.com"
+      "url": "https://api.zerobot.ai"
     }
   ],
   "paths": {
