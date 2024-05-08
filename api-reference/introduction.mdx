@@ -1,33 +1,43 @@
 ---
 title: "Introduction"
-description: "Example section for showcasing API endpoints"
+description: "ZeroBot API Documentation"
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+<Note>This section provides documentation for the ZeroBot API endpoints.</Note>
 
 ## Welcome
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+The ZeroBot API allows you to interact with the ZeroBot chat system programmatically. You can retrieve system messages, create chat completions, and more.
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
+## Base URL
+
+All API endpoints are relative to the following base URL:
+https://api.zerobot.ai
 
 ## Authentication
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+Bearer token-based authentication is currently not implemented for the ZeroBot API. The API endpoints are publicly accessible without authentication.
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+## Endpoints
+
+The following endpoints are available in the ZeroBot API:
+
+<Card title="Get Home Page" icon="home" href="/api-reference/endpoint/get">
+  Retrieve the home page of the API.
+</Card>
+
+<Card
+  title="Get System Message"
+  icon="comment"
+  href="/api-reference/endpoint/system-message"
+>
+  Get a system message by providing a user ID.
+</Card>
+
+<Card
+  title="Create Chat Completion"
+  icon="comments"
+  href="/api-reference/endpoint/completions"
+>
+  Create a chat completion by providing an agent and a message.
+</Card>
