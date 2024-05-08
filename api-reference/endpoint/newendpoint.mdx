@@ -8,8 +8,12 @@ description: "Get agent's system message"
 
 This endpoint allows you to check an agent's system message.
 
+### Headers
+
+Include any necessary headers here.
+
 ### Query Parameters
 
-- `uid` (required): The unique identifier for the user.
+- `uid` (required, string): The unique identifier for the user.
 
-Include `?uid={uid}` at the end of the URL to replace `{uid}` with the actual user ID value when making the request.
+The user can enter the `uid` directly in the Mintlify documentation interface by typing it into the "Query" section.
