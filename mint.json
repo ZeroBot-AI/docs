@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
   "logo": {
-    "dark": "https://www.zerobot.ai/assets/svg/mp-black.svg",
-    "light": "https://www.zerobot.ai/assets/svg/mp-white.svg"
+    "dark": "https://www.zerobot.ai/assets/svg/mp-white.svg",
+    "light": "https://www.zerobot.ai/assets/svg/mp-black.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
