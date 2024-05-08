@@ -88,6 +88,6 @@
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   },
   "api": {
-    "specPath": "openapi.json"
+    "specPath": "api-reference/openapi.json"
   }
 }
