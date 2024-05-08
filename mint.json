@@ -3,7 +3,7 @@
   "name": "Starter Kit",
   "logo": {
     "dark": "https://www.zerobot.ai/assets/svg/mp-logo.svg",
-    "light": "https://www.zerobot.ai/assets/svg/mp-white.svg"
+    "light": "https://www.zerobot.ai/assets/svg/mp-logo.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
