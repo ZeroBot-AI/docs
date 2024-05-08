@@ -11,7 +11,7 @@ This endpoint allows you to check an agent's system message.
 ### Query Parameters
 
 - `uid` (optional, string): The unique identifier for the user.
-  - parameterName: uid
+  - paramName: uid
   - optional: true
 
 ### Example Request
@@ -21,3 +21,10 @@ This endpoint allows you to check an agent's system message.
 Users can optionally provide the `uid` value when making the request. If the `uid` parameter is not provided, the API will handle it accordingly.
 
 Make sure the Mintlify configuration prompts for this parameter in the API test call interface. If the `uid` is not provided, the API should have a default behavior or return an appropriate response.
+
+param:
+
+- name: uid
+  type: string
+  description: The unique identifier for the user.
+  optional: true
