@@ -1,6 +1,6 @@
 ---
 title: "System Message"
-api: "GET https://api.zerobot.ai/v1/chat/system_message"
+api: "GET https://api.zerobot.ai/v1/chat/system_message?uid={uid}"
 description: "Get agent's system message"
 ---
 
@@ -12,4 +12,8 @@ This endpoint allows you to check an agent's system message.
 
 - `uid` (required, string): The unique identifier for the user.
 
-This will create an interactive field in Mintlify where users can type in the `uid` as a query parameter during a test API call.
+### Example Request
+
+`GET https://api.zerobot.ai/v1/chat/system_message?uid={uid}`
+
+Users need to replace `{uid}` with the actual `uid` value before sending the request. Make sure the Mintlify configuration prompts for this parameter in the API test call interface.
