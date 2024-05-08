@@ -1,17 +1,15 @@
 ---
-title: "Create User"
-api: "POST https://api.example.com/users"
-description: "Create a new user account"
+title: "System Message"
+api: "GET https://api.zerobot.ai/v1/chat/system_message"
+description: "Get agent's system message"
 ---
 
 ## Endpoint Description
 
-This endpoint allows you to create a new user account by sending a POST request to the `/users` endpoint. The request body should include the necessary user information, such as name, email, and password.
+This endpoint allows you to check an agent's system message.
 
 ### Request Parameters
 
 ```yaml
-name: John Doe
-email: john@example.com
-password: secretpassword
+uid: bZjbfHSH9
 ```
