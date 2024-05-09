@@ -74,7 +74,8 @@
         "api-reference/endpoint/create-agent",
         "api-reference/endpoint/list-agents",
         "api-reference/endpoint/retrieve-agent",
-        "api-reference/endpoint/modify-agent"
+        "api-reference/endpoint/modify-agent",
+        "api-reference/endpoint/delete-agent"
       ]
     },
     {
