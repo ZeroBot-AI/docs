@@ -17,6 +17,10 @@
   },
   "topbarLinks": [
     {
+      "name": "Home",
+      "url": "https://www.zerobot.ai"
+    },
+    {
       "name": "Support",
       "url": "mailto:info@zerobot.ai"
     }
