@@ -83,24 +83,15 @@
     "/v1/chat/completions": {
       "get": {
         "summary": "Create a completion",
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "agent": {
-                    "type": "string"
-                  },
-                  "message": {
-                    "type": "string"
-                  }
-                },
-                "required": ["agent", "message"]
-              }
+          "properties": {
+            "agent": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
             }
-          }
+          },
+          "required": ["agent", "message"]
         },
         "responses": {
           "200": {
