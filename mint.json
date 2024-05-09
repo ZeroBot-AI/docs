@@ -81,7 +81,7 @@
     {
       "group": "Chats",
       "pages": [
-        "api-reference/endpoint/insert-message",
+        "api-reference/endpoint/create-message",
         "api-reference/endpoint/list-messages",
         "api-reference/endpoint/retrieve-message",
         "api-reference/endpoint/modify-message",
