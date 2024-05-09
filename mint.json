@@ -79,7 +79,7 @@
       ]
     },
     {
-      "group": "Chats",
+      "group": "Messages",
       "pages": [
         "api-reference/endpoint/create-message",
         "api-reference/endpoint/list-messages",
