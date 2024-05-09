@@ -69,13 +69,13 @@
       ]
     },
     {
-      "group": "Agents",
+      "group": "Assistants",
       "pages": [
-        "api-reference/endpoint/create-agent",
-        "api-reference/endpoint/list-agents",
-        "api-reference/endpoint/retrieve-agent",
-        "api-reference/endpoint/modify-agent",
-        "api-reference/endpoint/delete-agent"
+        "api-reference/endpoint/create-assistant",
+        "api-reference/endpoint/list-assistants",
+        "api-reference/endpoint/retrieve-assistant",
+        "api-reference/endpoint/modify-assistant",
+        "api-reference/endpoint/delete-assistant"
       ]
     },
     {
