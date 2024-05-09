@@ -106,7 +106,7 @@
       ]
     },
     {
-      "group": "Text to Speech",
+      "group": "Text To Speech",
       "pages": [
         "api-reference/endpoint/text-to-speech"
       ]
