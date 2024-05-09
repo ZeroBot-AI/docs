@@ -1,24 +1,4 @@
 ---
-title: "System Message"
-api: "GET https://api.zerobot.ai/v1/chat/system_message?uid={uid}"
-description: "Get agent's system message"
-parameters:
-  - name: uid
-    type: string
-    description: The unique identifier for the user.
-    optional: false
+title: "Get System Message"
+openapi: "GET /v1/chat/system_message"
 ---
-
-## Endpoint Description
-
-This endpoint allows you to check an agent's system message.
-
-### Query Parameters
-
-- `uid` (optional, string): The unique identifier for the user.
-
-### Example Request
-
-`GET https://api.zerobot.ai/v1/chat/system_message?uid={uid}`
-
-Users can optionally provide the `uid` value when making the request. If the `uid` parameter is not provided, the API will handle it accordingly.
