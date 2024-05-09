@@ -11,28 +11,6 @@
     }
   ],
   "paths": {
-    "/index": {
-      "get": {
-        "summary": "Get home page",
-        "responses": {
-          "200": {
-            "description": "Successful response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "message": {
-                      "type": "string"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/v1/chat/system_message": {
       "get": {
         "summary": "Get system message",
