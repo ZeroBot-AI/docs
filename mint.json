@@ -72,7 +72,13 @@
       "group": "Agents",
       "pages": [
         "api-reference/endpoint/list-agents",
-        "api-reference/endpoint/get-instructions",
+        "api-reference/endpoint/get-agent",
+        "api-reference/endpoint/create-agent"
+      ]
+    },
+    {
+      "group": "Chats",
+      "pages": [
         "api-reference/endpoint/insert-message",
         "api-reference/endpoint/completions"
       ]
