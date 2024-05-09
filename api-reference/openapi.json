@@ -81,7 +81,7 @@
       }
     },
     "/v1/chat/completions": {
-      "post": {
+      "get": {
         "summary": "Create a completion",
         "requestBody": {
           "required": true,
