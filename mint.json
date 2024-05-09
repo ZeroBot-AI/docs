@@ -71,9 +71,10 @@
     {
       "group": "Agents",
       "pages": [
+        "api-reference/endpoint/create-agent",
         "api-reference/endpoint/list-agents",
-        "api-reference/endpoint/get-agent",
-        "api-reference/endpoint/create-agent"
+        "api-reference/endpoint/retrieve-agent",
+        "api-reference/endpoint/edit-agent"
       ]
     },
     {
