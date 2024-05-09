@@ -65,7 +65,7 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Agent Endpoints",
       "pages": [
         "api-reference/endpoint/system_message",
         "api-reference/endpoint/insert_message",
