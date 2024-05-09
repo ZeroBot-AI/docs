@@ -71,6 +71,7 @@
     {
       "group": "Agents",
       "pages": [
+        "api-reference/endpoint/list-agents",
         "api-reference/endpoint/get-instructions",
         "api-reference/endpoint/insert-message",
         "api-reference/endpoint/completions"
