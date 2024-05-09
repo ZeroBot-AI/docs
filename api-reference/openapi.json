@@ -29,11 +29,12 @@
         "summary": "Get system message",
         "parameters": [
           {
-            "name": "uid",
+            "name": "limit",
             "in": "query",
-            "required": true,
+            "description": "The maximum number of results to return",
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
