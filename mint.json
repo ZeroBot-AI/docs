@@ -106,6 +106,12 @@
       ]
     },
     {
+      "group": "Text to Speech",
+      "pages": [
+        "api-reference/endpoint/text-to-speech"
+      ]
+    },
+    {
       "group": "Voices",
       "pages": [
         "api-reference/endpoint/list-voices"
