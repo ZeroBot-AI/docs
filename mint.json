@@ -79,9 +79,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/ZeroBot_AI",
+    "linkedin": "https://www.linkedin.com/in/zerobot-ai/"
   },
   "api": {
     "baseUrl": "https://api.zerobot.ai"
