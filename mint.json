@@ -115,8 +115,8 @@
   "footerSocials": {
     "x": "https://x.com/ZeroBot_AI",
     "linkedin": "https://www.linkedin.com/in/zerobot-ai/",
-    "facebook": "https://www.facebook.com/in/zerobot_ai/",
-    "youtube": "https://www.youtube.com/in/zerobot_ai/"
+    "facebook": "https://www.facebook.com/zerobot_ai",
+    "youtube": "https://www.youtube.com/@zerobot_ai"
   },
   "api": {
     "baseUrl": "https://api.zerobot.ai"
