@@ -79,6 +79,15 @@
       ]
     },
     {
+      "group": "Threads",
+      "pages": [
+        "api-reference/endpoint/create-thread",
+        "api-reference/endpoint/retrieve-thread",
+        "api-reference/endpoint/modify-thread",
+        "api-reference/endpoint/delete-thread"
+      ]
+    },
+    {
       "group": "Messages",
       "pages": [
         "api-reference/endpoint/create-message",
