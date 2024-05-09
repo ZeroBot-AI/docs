@@ -83,7 +83,7 @@
     "/v1/chat/completions": {
       "get": {
         "summary": "Create a completion",
-          "properties": {
+          "parameters": {
             "agent": {
               "type": "string"
             },
