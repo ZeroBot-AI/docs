@@ -52,6 +52,13 @@
       ]
     },
     {
+      "group": "Capabilities",
+      "pages": [
+        "guides/text-generation",
+        "guides/text-to-speech"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
@@ -96,6 +103,12 @@
         "api-reference/endpoint/modify-message",
         "api-reference/endpoint/delete-message",
         "api-reference/endpoint/completions"
+      ]
+    },
+    {
+      "group": "Voices",
+      "pages": [
+        "api-reference/endpoint/list-voices"
       ]
     }
   ],
