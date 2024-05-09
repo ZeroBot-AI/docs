@@ -81,18 +81,26 @@
       }
     },
     "/v1/chat/completions": {
-      "get": {
+      "post": {
         "summary": "Create a completion",
-          "parameters": {
-            "agent": {
-              "type": "string"
-            },
-            "message": {
+        "parameters": [
+          {
+            "name": "agent",
+            "in": "query",
+            "required": true,
+            "schema": {
               "type": "string"
             }
           },
-          "required": ["agent", "message"]
-        },
+          {
+            "name": "message",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Successful response",
