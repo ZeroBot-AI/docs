@@ -5,7 +5,7 @@
     "dark": "https://www.zerobot.ai/assets/svg/mp-white-cropped.svg",
     "light": "https://www.zerobot.ai/assets/svg/mp-black-cropped.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://chat.zerobot.ai/favicon.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
