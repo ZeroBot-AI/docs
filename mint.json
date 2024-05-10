@@ -59,7 +59,8 @@
         "guides/text-to-image",
         "guides/text-to-video",
         "guides/vision",
-        "guides/speech-to-text"
+        "guides/speech-to-text",
+        "guides/moderation"
       ]
     },
     {
