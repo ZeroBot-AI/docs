@@ -55,18 +55,8 @@
       "group": "Capabilities",
       "pages": [
         "guides/text-generation",
-        "guides/text-to-speech"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "guides/text-to-speech",
+        "guides/text-to-image"
       ]
     },
     {
