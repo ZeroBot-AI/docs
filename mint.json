@@ -57,7 +57,8 @@
         "guides/text-generation",
         "guides/text-to-speech",
         "guides/text-to-image",
-        "guides/vision"
+        "guides/vision",
+        "guides/speech-to-text"
       ]
     },
     {
