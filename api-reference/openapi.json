@@ -65,7 +65,7 @@
         "description": "The id of the thread to create a message for.",
         "parameters": [
           {
-            "name": "assistant",
+            "name": "assistant_id",
             "in": "query",
             "required": true,
             "schema": {
@@ -136,7 +136,7 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "assistant": {
+                  "assistant_id": {
                     "type": "string"
                   },
                   "message": {
