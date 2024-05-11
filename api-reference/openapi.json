@@ -436,13 +436,9 @@
       }
     }
   },
-  "components": {
-    "securitySchemes": {
-      "bearerAuth": {
-        "type": "http",
-        "scheme": "bearer",
-        "bearerFormat": "JWT"
-      }
+  "api": {
+    "auth": {
+        "method": "bearer"
     }
   }
 }
