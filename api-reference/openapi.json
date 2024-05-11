@@ -118,7 +118,6 @@
     "/v1/threads/{thread_id}/messages": {
       "post": {
         "summary": "Create a message",
-        "description": "The id of the thread to create a message for.",
         "parameters": [
           {
             "name": "assistant",
@@ -146,6 +145,7 @@
           },
           {
             "name": "thread_id",
+            "description": "The id of the thread to create a message for.",
             "in": "query",
             "required": true,
             "schema": {
