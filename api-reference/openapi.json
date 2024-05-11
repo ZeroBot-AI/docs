@@ -144,11 +144,11 @@
             }
           }
         },
-        "security": [
-          {
-            "bearerAuth": []
+        "api": {
+          "auth": {
+              "method": "bearer"
           }
-        ]
+        }
       }
     },
     "/v1/chat/insert_message": {
