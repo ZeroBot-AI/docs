@@ -5,6 +5,11 @@
     "dark": "https://www.zerobot.ai/assets/svg/mp-white-cropped.svg",
     "light": "https://www.zerobot.ai/assets/svg/mp-black-cropped.svg"
   },
+  "api": {
+    "auth": {
+      "method": "bearer"
+    }
+  },
   "favicon": "https://chat.zerobot.ai/favicon.png",
   "colors": {
     "primary": "#0D9373",
