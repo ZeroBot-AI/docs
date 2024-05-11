@@ -60,11 +60,6 @@
       }
     },
     "/v1/chat/completions": {
-      "api": {
-        "auth": {
-            "method": "bearer"
-        }
-    },    
       "post": {
         "summary": "Create a completion",
         "description": "The id of the thread to create a message for.",
