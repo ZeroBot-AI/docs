@@ -62,9 +62,10 @@
     "/v1/chat/completions": {
       "post": {
         "summary": "Create a completion",
+        "description": "The id of the thread to create a message for.",
         "parameters": [
           {
-            "name": "agent",
+            "name": "assistant",
             "in": "query",
             "required": true,
             "schema": {
@@ -117,9 +118,10 @@
     "/v1/threads/{thread_id}/messages": {
       "post": {
         "summary": "Create a message",
+        "description": "The id of the thread to create a message for.",
         "parameters": [
           {
-            "name": "agent",
+            "name": "assistant",
             "in": "query",
             "required": true,
             "schema": {
@@ -143,7 +145,7 @@
             }
           },
           {
-            "name": "chat_id",
+            "name": "thread_id",
             "in": "query",
             "required": true,
             "schema": {
