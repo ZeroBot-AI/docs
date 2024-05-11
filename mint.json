@@ -90,12 +90,12 @@
     {
       "group": "Messages",
       "pages": [
+        "api-reference/endpoint/completions",
         "api-reference/endpoint/create-message",
         "api-reference/endpoint/list-messages",
         "api-reference/endpoint/retrieve-message",
         "api-reference/endpoint/modify-message",
-        "api-reference/endpoint/delete-message",
-        "api-reference/endpoint/completions"
+        "api-reference/endpoint/delete-message"
       ]
     },
     {
