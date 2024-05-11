@@ -436,9 +436,5 @@
       }
     }
   },
-  "api": {
-    "auth": {
-        "method": "bearer"
-    }
-  }
+  
 }
