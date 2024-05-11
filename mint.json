@@ -5,11 +5,6 @@
     "dark": "https://www.zerobot.ai/assets/svg/mp-white-cropped.svg",
     "light": "https://www.zerobot.ai/assets/svg/mp-black-cropped.svg"
   },
-  "api": {
-    "auth": {
-      "method": "bearer"
-    }
-  },
   "favicon": "https://chat.zerobot.ai/favicon.png",
   "colors": {
     "primary": "#0D9373",
@@ -123,6 +118,9 @@
     "youtube": "https://www.youtube.com/@zerobot_ai"
   },
   "api": {
-    "baseUrl": "https://api.zerobot.ai"
+    "baseUrl": "https://api.zerobot.ai",
+    "auth": {
+      "method": "bearer"
+    }
   }
 }
