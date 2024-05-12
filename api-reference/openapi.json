@@ -159,13 +159,14 @@
           {
             "name": "assistant_id",
             "in": "query",
-            "required": true,
+            "required": false,
             "schema": {
               "type": "string"
             }
           },
           {
-            "name": "message",
+            "name": "prompt",
+            "description": "The prompt to generate a completion for.",
             "in": "query",
             "required": true,
             "schema": {
