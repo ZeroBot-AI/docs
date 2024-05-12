@@ -365,12 +365,21 @@
     },
     "/v1/assistants/{assistant_id}": {
       "post": {
-        "summary": "Modify an assistant",
-        "description": "Modifies an existing assistant.",
+        "summary": "Modify a message",
+        "description": "Modifies an existing message.",
         "parameters": [
           {
-            "name": "assistant_id",
-            "description": "The ID of the assistant to modify.",
+            "name": "thread_id",
+            "description": "The ID of the thread to which this message belongs.",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "message_id",
+            "description": "The ID of the message to modify.",
             "in": "path",
             "required": true,
             "schema": {
@@ -378,29 +387,6 @@
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "name": {
-                    "type": "string",
-                    "description": "The name of the assistant. The maximum length is 256 characters."
-                  },
-                  "description": {
-                    "type": "string",
-                    "description": "The description of the assistant. The maximum length is 512 characters."
-                  },
-                  "instructions": {
-                    "type": "string",
-                    "description": "The system instructions that the assistant uses. The maximum length is 256,000 characters."
-                  }
-                }
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "Successful response",
@@ -411,7 +397,7 @@
                   "properties": {
                     "assistant": {
                       "type": "object",
-                      "description": "The modified assistant object."
+                      "description": "The modified message object."
                     }
                   }
                 }
@@ -449,7 +435,7 @@
             }
           },
           "404": {
-            "description": "Assistant not found",
+            "description": "Message not found",
             "content": {
               "application/json": {
                 "schema": {
