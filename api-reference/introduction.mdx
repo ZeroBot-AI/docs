@@ -18,30 +18,22 @@ https://api.zerobot.ai
 
 Bearer token-based authentication is currently not implemented for the ZeroBot API. The API endpoints are publicly accessible without authentication.
 
-## Endpoints
+## Modalities
 
-The following endpoints are available in the ZeroBot API:
+The following modalities are available in the ZeroBot API:
 
 <Card
-  title="Get System Message"
-  icon="comment"
-  href="/api-reference/endpoint/system_message"
+  title="Text generation"
+  icon="text-width"
+  href="/api-reference/modalities/completions`"
 >
-  Get a system message by providing a user ID.
+  Creates a completion for the provided prompt and parameters.
 </Card>
 
 <Card
-  title="Create Chat Completion"
+  title="Text-to-speech"
   icon="comments"
-  href="/api-reference/endpoint/completions"
+  href="/api-reference/modalities/text-to-speech"
 >
-  Create a completion for the provided prompt and parameters.
-</Card>
-
-<Card
-  title="Insert Message"
-  icon="comments"
-  href="/api-reference/endpoint/insert_message"
->
-  Insert a message into a conversation.
+  Converts text into lifelike speech.
 </Card>

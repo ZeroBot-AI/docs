@@ -863,7 +863,7 @@
     "/v1/chat/completions": {
       "post": {
         "summary": "Create a completion",
-        "description": "The id of the thread to create a message for.",
+        "description": "Creates a completion for the provided prompt and parameters.",
         "parameters": [
           {
             "name": "assistant_id",
