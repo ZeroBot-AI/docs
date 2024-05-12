@@ -88,10 +88,10 @@
     {
       "group": "Threads",
       "pages": [
-        "api-reference/endpoint/create-thread",
-        "api-reference/endpoint/retrieve-thread",
-        "api-reference/endpoint/modify-thread",
-        "api-reference/endpoint/delete-thread"
+        "api-reference/threads/create-thread",
+        "api-reference/threads/retrieve-thread",
+        "api-reference/threads/modify-thread",
+        "api-reference/threads/delete-thread"
       ]
     },
     {
