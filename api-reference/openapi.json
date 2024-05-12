@@ -166,7 +166,8 @@
                   "type": "object",
                   "properties": {
                     "message": {
-                      "type": "object"
+                      "type": "object",
+                      "description": "A message object."
                     }
                   }
                 }
