@@ -300,6 +300,52 @@
         }
       }
     },
+    "/v1/assistants/{assistant_id}": {
+      "get": {
+        "summary": "Retrieve an assistant",
+        "description": "Retrieves an assistant.",
+        "parameters": [
+          {
+            "name": "assistant_id",
+            "in": "path",
+            "description": "The ID of the assistant to retrieve.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "The assistant object matching the specified ID."
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string",
+                      "description": "The error message indicating that the assistant was not found."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/threads": {
       "post": {
         "summary": "Create a thread",
@@ -877,7 +923,7 @@
         }
       }
     },
-    "/v1/assistants/{assistant_id}": {
+    "/v1/messages/{message_id}": {
       "post": {
         "summary": "Modify a message",
         "description": "Modifies an existing message.",
