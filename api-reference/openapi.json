@@ -923,50 +923,6 @@
         }
       }
     },
-    "/v1/messages/{message_id}": {
-      "post": {
-        "summary": "Modify a message",
-        "description": "Modifies an existing message.",
-        "parameters": [
-          {
-            "name": "thread_id",
-            "description": "The ID of the thread to which this message belongs.",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "message_id",
-            "description": "The ID of the message to modify.",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Successful response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "assistant": {
-                      "type": "object",
-                      "description": "The modified message object."
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/v1/text-to-speech": {
       "post": {
         "summary": "API that converts text into lifelike speech with best-in-class latency & uses the most advanced AI audio model ever. Create voiceovers for your videos, audiobooks, or create AI chatbots for free.",
