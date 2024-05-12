@@ -97,12 +97,11 @@
     {
       "group": "Messages",
       "pages": [
-        "api-reference/endpoint/completions",
         "api-reference/messages/create-message",
-        "api-reference/endpoint/list-messages",
-        "api-reference/endpoint/retrieve-message",
-        "api-reference/endpoint/modify-message",
-        "api-reference/endpoint/delete-message"
+        "api-reference/messages/list-messages",
+        "api-reference/messages/retrieve-message",
+        "api-reference/messages/modify-message",
+        "api-reference/messages/delete-message"
       ]
     },
     {
