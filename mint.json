@@ -78,11 +78,11 @@
     {
       "group": "Assistants",
       "pages": [
-        "api-reference/endpoint/create-assistant",
-        "api-reference/endpoint/list-assistants",
-        "api-reference/endpoint/retrieve-assistant",
-        "api-reference/endpoint/modify-assistant",
-        "api-reference/endpoint/delete-assistant"
+        "api-reference/assistants/create-assistant",
+        "api-reference/assistants/list-assistants",
+        "api-reference/assistants/retrieve-assistant",
+        "api-reference/assistants/modify-assistant",
+        "api-reference/assistants/delete-assistant"
       ]
     },
     {
