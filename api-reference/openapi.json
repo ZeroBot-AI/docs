@@ -345,7 +345,7 @@
           }
         }
       },
-      "post": {
+      "patch": {
         "summary": "Modify an assistant",
         "description": "Modifies an assistant.",
         "requestBody": {
