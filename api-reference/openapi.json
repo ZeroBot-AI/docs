@@ -231,7 +231,7 @@
                   "properties": {
                     "message": {
                       "type": "object",
-                      "description": "A message object."
+                      "description": "A list of message objects."
                     }
                   }
                 }
