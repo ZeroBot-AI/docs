@@ -277,7 +277,7 @@
     "/v1/threads/{thread_id}/messages/{message_id}": {
       "get": {
         "summary": "Retrieve a message",
-        "description": "Retrieve a message with the specified ID from a thread.",
+        "description": "Retrieve a message.",
         "parameters": [
           {
             "name": "thread_id",
