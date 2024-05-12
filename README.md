@@ -1,4 +1,4 @@
-## ZeroBot Docs
+## ZeroBot API Docs
 
 ### Setup
 
