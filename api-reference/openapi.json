@@ -363,6 +363,109 @@
         }
       }
     },
+    "/v1/assistants/{assistant_id}": {
+      "post": {
+        "summary": "Modify an assistant",
+        "description": "Modifies an existing assistant.",
+        "parameters": [
+          {
+            "name": "assistant_id",
+            "description": "The ID of the assistant to modify.",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "The name of the assistant. The maximum length is 256 characters."
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "The description of the assistant. The maximum length is 512 characters."
+                  },
+                  "instructions": {
+                    "type": "string",
+                    "description": "The system instructions that the assistant uses. The maximum length is 256,000 characters."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "assistant": {
+                      "type": "object",
+                      "description": "The modified assistant object."
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Assistant not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/text-to-speech": {
       "post": {
         "summary": "API that converts text into lifelike speech with best-in-class latency & uses the most advanced AI audio model ever. Create voiceovers for your videos, audiobooks, or create AI chatbots for free.",
