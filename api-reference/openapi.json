@@ -153,7 +153,7 @@
         "description": "The id of the thread to create a message for.",
         "parameters": [
           {
-            "name": "assistant_id",
+            "name": "assistant_ids",
             "in": "query",
             "required": false,
             "schema": {
