@@ -300,6 +300,40 @@
             }
           }
         }
+      },
+      "delete": {
+        "summary": "Delete a thread",
+        "description": "Delete a thread.",
+        "parameters": [
+          {
+            "name": "thread_id",
+            "in": "path",
+            "description": "The ID of the thread to delete.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "The deletion status.",
+                      "enum": ["success"]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     },
     "/v1/chat/completions": {
