@@ -229,12 +229,9 @@
                 "schema": {
                   "type": "object",
                   "properties": {
-                    "messages": {
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "description": "A message object."
-                      }
+                    "message": {
+                      "type": "object",
+                      "description": "A message object."
                     }
                   }
                 }
