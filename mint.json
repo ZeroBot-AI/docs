@@ -69,6 +69,13 @@
       ]
     },
     {
+      "group": "Modalities",
+      "pages": [
+        "api-reference/modalities/completions",
+        "api-reference/modalities/text-to-speech"
+      ]
+    },
+    {
       "group": "Assistants",
       "pages": [
         "api-reference/endpoint/create-assistant",
