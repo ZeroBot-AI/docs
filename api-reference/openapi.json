@@ -165,8 +165,8 @@
                 "schema": {
                   "type": "object",
                   "properties": {
-                    "completion": {
-                      "type": "string"
+                    "message": {
+                      "type": "object"
                     }
                   }
                 }
