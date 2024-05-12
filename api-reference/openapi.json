@@ -213,7 +213,7 @@
           }
         }
       },
-      "post": {
+      "patch": {
         "summary": "Modify a thread",
         "description": "Modifies a thread.",
         "parameters": [
