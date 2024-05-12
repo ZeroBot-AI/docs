@@ -92,7 +92,8 @@
                   "type": "object",
                   "properties": {
                     "completion": {
-                      "type": "object"
+                      "type": "object",
+                      "description": "A completion object."
                     }
                   }
                 }
