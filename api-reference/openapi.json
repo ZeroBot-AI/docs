@@ -236,7 +236,7 @@
                   "type": "object",
                   "properties": {
                     "completion": {
-                      "type": "string"
+                      "type": "object"
                     }
                   }
                 }
