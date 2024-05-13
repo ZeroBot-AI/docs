@@ -859,6 +859,15 @@
             }
           },
           {
+            "name": "thread_id",
+            "description": "The ID of the thread to use to execute this run.",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
             "name": "prompt",
             "description": "The prompt(s) to generate completions for, encoded as a string, array of strings, array of tokens, or array of token arrays.\n\nNote that <|endoftext|> is the document separator that the model sees during training, so if a prompt is not specified the model will generate as if from the beginning of a new document.",
             "in": "query",
