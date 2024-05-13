@@ -934,7 +934,7 @@
                     "default": "user"
                   }
                 },
-                "required": ["assistant_id", "content", "role"]
+                "required": ["content", "role"]
               }
             }
           }
