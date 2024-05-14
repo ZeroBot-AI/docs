@@ -53,16 +53,16 @@
       "group": "Capabilities",
       "pages": [
         "guides/text-generation",
-        "guides/text-to-speech"
+        "guides/vision"
       ]
     },
     {
       "group": "Upcoming",
       "pages": [
+        "guides/text-to-speech",
         "guides/text-to-image",
         "guides/text-to-video",
         "guides/text-to-song",
-        "guides/vision",
         "guides/speech-to-text",
         "guides/phone-calls",
         "guides/moderation"
