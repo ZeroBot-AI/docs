@@ -81,25 +81,6 @@
         "api-reference/modalities/text-to-speech"
       ]
     },
-    // {
-    //   "group": "Assistants",
-    //   "pages": [
-    //     "api-reference/assistants/create-assistant",
-    //     "api-reference/assistants/list-assistants",
-    //     "api-reference/assistants/retrieve-assistant",
-    //     "api-reference/assistants/modify-assistant",
-    //     "api-reference/assistants/delete-assistant"
-    //   ]
-    // },
-    // {
-    //   "group": "Threads",
-    //   "pages": [
-    //     "api-reference/threads/create-thread",
-    //     "api-reference/threads/retrieve-thread",
-    //     "api-reference/threads/modify-thread",
-    //     "api-reference/threads/delete-thread"
-    //   ]
-    // },
     {
       "group": "Messages",
       "pages": [
