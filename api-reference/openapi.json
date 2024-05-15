@@ -43,7 +43,7 @@
           }
         }
       }
-    },
+    },/*
     "/v1/assistants": {
       "post": {
         "summary": "Create an assistant",
@@ -843,7 +843,7 @@
           }
         }
       }
-    },
+    },*/
     "/v1/chat/completions": {
       "post": {
         "summary": "Create a completion",
