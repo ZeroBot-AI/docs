@@ -77,8 +77,7 @@
     {
       "group": "Modalities",
       "pages": [
-        "api-reference/modalities/completions",
-        "api-reference/modalities/text-to-speech"
+        "api-reference/modalities/completions"
       ]
     },
     {
