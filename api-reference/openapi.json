@@ -863,10 +863,6 @@
                     "type": "string",
                     "description": "The ID of the thread to use to execute this run."
                   },
-                  "prompt": {
-                    "type": "string",
-                    "description": "The prompt(s) to generate completions for, encoded as a string, array of strings, array of tokens, or array of token arrays.\n\nNote that <|endoftext|> is the document separator that the model sees during training, so if a prompt is not specified the model will generate as if from the beginning of a new document."
-                  },
                   "messages": {
                     "type": "array",
                     "description": "A list of messages to include in the completion request.",
