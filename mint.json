@@ -35,13 +35,6 @@
       "url": "api-reference"
     }
   ],
-  "anchors": [
-    {
-      "name": "Quickstart",
-      "icon": "book-open-cover",
-      "url": "https://chat.zerobot.ai"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
