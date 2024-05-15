@@ -80,7 +80,7 @@
         "api-reference/modalities/completions",
         "api-reference/modalities/text-to-speech"
       ]
-    },
+    },/*
     {
       "group": "Assistants",
       "pages": [
@@ -99,7 +99,7 @@
         "api-reference/threads/modify-thread",
         "api-reference/threads/delete-thread"
       ]
-    },
+    },*/
     {
       "group": "Messages",
       "pages": [
