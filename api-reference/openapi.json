@@ -848,35 +848,74 @@
       "post": {
         "summary": "Create a completion",
         "description": "Creates a completion for the provided prompt and parameters.",
-        "parameters": [
-          {
-            "name": "assistant_id",
-            "description": "The ID of the assistant to use to execute this run.",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "thread_id",
-            "description": "The ID of the thread to use to execute this run.",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "prompt",
-            "description": "The prompt(s) to generate completions for, encoded as a string, array of strings, array of tokens, or array of token arrays.\n\nNote that <|endoftext|> is the document separator that the model sees during training, so if a prompt is not specified the model will generate as if from the beginning of a new document.",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "type": "string"
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "assistant_id": {
+                    "type": "string",
+                    "description": "The ID of the assistant to use to execute this run."
+                  },
+                  "thread_id": {
+                    "type": "string",
+                    "description": "The ID of the thread to use to execute this run."
+                  },
+                  "prompt": {
+                    "type": "string",
+                    "description": "The prompt(s) to generate completions for, encoded as a string, array of strings, array of tokens, or array of token arrays.\n\nNote that <|endoftext|> is the document separator that the model sees during training, so if a prompt is not specified the model will generate as if from the beginning of a new document."
+                  },
+                  "messages": {
+                    "type": "array",
+                    "description": "A list of messages to include in the completion request.",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "role": {
+                          "type": "string",
+                          "description": "The role of the message sender. Can be 'user' or 'assistant'."
+                        },
+                        "content": {
+                          "type": "array",
+                          "description": "The content of the message.",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "type": {
+                                "type": "string",
+                                "description": "The type of content. Can be 'text' or 'image_url'."
+                              },
+                              "text": {
+                                "type": "string",
+                                "description": "The text content of the message, if type is 'text'."
+                              },
+                              "image_url": {
+                                "type": "object",
+                                "description": "The image URL, if type is 'image_url'.",
+                                "properties": {
+                                  "url": {
+                                    "type": "string",
+                                    "description": "The URL of the image."
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "max_tokens": {
+                    "type": "integer",
+                    "description": "The maximum number of tokens to generate in the completion."
+                  }
+                }
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "Successful response",
