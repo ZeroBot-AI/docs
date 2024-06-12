@@ -332,16 +332,23 @@
       "patch": {
         "summary": "Modify an assistant",
         "description": "Modifies an assistant.",
+        "parameters": [
+          {
+            "name": "assistant_id",
+            "in": "path",
+            "description": "ID of the assistant to update.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
                 "type": "object",
                 "properties": {
-                  "assistant_id": {
-                    "type": "string",
-                    "description": "ID of the assistant to update."
-                  },
                   "model": {
                     "type": "string",
                     "description": "ID of the model to use. You can use the List models API to see all of your available models, or see our Model overview for descriptions of them."
