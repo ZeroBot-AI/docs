@@ -340,7 +340,7 @@
                 "properties": {
                   "assistant_id": {
                     "type": "string",
-                    "description": "ID of the assistnat to update."
+                    "description": "ID of the assistant to update."
                   },
                   "model": {
                     "type": "string",
