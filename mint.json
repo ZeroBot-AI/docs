@@ -84,12 +84,6 @@
       ]
     },
     {
-      "group": "Assistants",
-      "pages": [
-        "api-reference/assistants/modify-assistant"
-      ]
-    },
-    {
       "group": "Text To Speech",
       "pages": [
         "api-reference/endpoint/text-to-speech"
