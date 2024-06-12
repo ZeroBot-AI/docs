@@ -86,7 +86,7 @@
     {
       "group": "Assistants",
       "pages": [
-        "api-reference/messages/modify-assistant"
+        "api-reference/assistants/modify-assistant"
       ]
     },
     {
